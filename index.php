@@ -69,6 +69,7 @@
         </form>
     </div>
     
+    <p style="text-align: center;">Nombre de reines : <?php echo isset($_POST["n"]) ? intval($_POST["n"]) : ""; ?></p>
     
     <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
